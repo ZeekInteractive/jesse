@@ -110,14 +110,17 @@ if ( !function_exists( 'jesse_styles' ) ) :
 		if ( WP_DEBUG ) :
 
 			// Enqueue our debug stylesheet [development mode - non-minified]
-			wp_enqueue_style( 'jesse_styles', get_stylesheet_directory_uri() . '/assets/dist/css/app.css', '', '9' );
+			wp_enqueue_style( 'jesse_styles', get_stylesheet_directory_uri() . '/assets/dist/css/app.css', '', '1' );
 
 		else :
 
 			// Enqueue our minified stylesheet [production mode - minified stylesheet]
-			wp_enqueue_style( 'jesse_styles', get_stylesheet_directory_uri() . '/assets/dist/css/app.min.css', '', '9' );
+			wp_enqueue_style( 'jesse_styles', get_stylesheet_directory_uri() . '/assets/dist/css/app.min.css', '', '1' );
 
 		endif;
+
+		// Enqueue our Google Fonts
+		wp_enqueue_style( 'googlefonts', 'http://fonts.googleapis.com/css?family=Patrick+Hand|Neucha|Dekko' );
 
 
 	}
