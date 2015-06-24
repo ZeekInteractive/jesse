@@ -57,12 +57,6 @@
 
 						</div><!-- .columns end -->
 
-						<div class="small-12 columns"><!-- .columns start -->
-
-							<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-
-						</div><!-- .columns end -->
-
 					</div><!-- .row end -->
 
 				</div><!-- .site-branding -->

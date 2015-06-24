@@ -467,7 +467,7 @@ body {
 /* line 438, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_global.scss */
 body {
   background: #fff;
-  color: #222;
+  color: #000;
   cursor: auto;
   font-family: "Dekko", sans-serif;
   font-style: normal;
@@ -549,7 +549,7 @@ select {
 /* line 221, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_grid.scss */
 .row {
   margin: 0 auto;
-  max-width: 62.5rem;
+  max-width: 75rem;
   width: 100%; }
   /* line 172, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
@@ -2165,20 +2165,20 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #FFFFFF;
+  background-color: #ccc;
+  border-color: #a3a3a3;
+  color: #333333;
   transition: background-color 300ms ease-out; }
   /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button:hover,
   button:focus, .button:hover,
   .button:focus {
-    background-color: #007095; }
+    background-color: #a3a3a3; }
   /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button:hover,
   button:focus, .button:hover,
   .button:focus {
-    color: #FFFFFF; }
+    color: #000; }
   /* line 220, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
@@ -2198,7 +2198,7 @@ button, .button {
   button.success, .button.success {
     background-color: #43AC6A;
     border-color: #368a55;
-    color: #FFFFFF; }
+    color: #000; }
     /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.success:hover,
     button.success:focus, .button.success:hover,
@@ -2208,12 +2208,12 @@ button, .button {
     button.success:hover,
     button.success:focus, .button.success:hover,
     .button.success:focus {
-      color: #FFFFFF; }
+      color: #000; }
   /* line 222, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.alert, .button.alert {
     background-color: #f04124;
     border-color: #cf2a0e;
-    color: #FFFFFF; }
+    color: #000; }
     /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.alert:hover,
     button.alert:focus, .button.alert:hover,
@@ -2223,12 +2223,12 @@ button, .button {
     button.alert:hover,
     button.alert:focus, .button.alert:hover,
     .button.alert:focus {
-      color: #FFFFFF; }
+      color: #000; }
   /* line 223, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.warning, .button.warning {
     background-color: #f08a24;
     border-color: #cf6e0e;
-    color: #FFFFFF; }
+    color: #000; }
     /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.warning:hover,
     button.warning:focus, .button.warning:hover,
@@ -2238,7 +2238,7 @@ button, .button {
     button.warning:hover,
     button.warning:focus, .button.warning:hover,
     .button.warning:focus {
-      color: #FFFFFF; }
+      color: #000; }
   /* line 224, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.info, .button.info {
     background-color: #a0d3e8;
@@ -2253,7 +2253,7 @@ button, .button {
     button.info:hover,
     button.info:focus, .button.info:hover,
     .button.info:focus {
-      color: #FFFFFF; }
+      color: #000; }
   /* line 226, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.large, .button.large {
     padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
@@ -2287,9 +2287,9 @@ button, .button {
     border-radius: 1000px; }
   /* line 237, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008CBA;
-    border-color: #007095;
-    color: #FFFFFF;
+    background-color: #ccc;
+    border-color: #a3a3a3;
+    color: #333333;
     box-shadow: none;
     cursor: default;
     opacity: 0.7; }
@@ -2299,21 +2299,21 @@ button, .button {
     button[disabled]:focus, .button.disabled:hover,
     .button.disabled:focus, .button[disabled]:hover,
     .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: #a3a3a3; }
     /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover,
     button.disabled:focus, button[disabled]:hover,
     button[disabled]:focus, .button.disabled:hover,
     .button.disabled:focus, .button[disabled]:hover,
     .button[disabled]:focus {
-      color: #FFFFFF; }
+      color: #000; }
     /* line 176, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover,
     button.disabled:focus, button[disabled]:hover,
     button[disabled]:focus, .button.disabled:hover,
     .button.disabled:focus, .button[disabled]:hover,
     .button[disabled]:focus {
-      background-color: #008CBA; }
+      background-color: #ccc; }
     /* line 238, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
@@ -2347,7 +2347,7 @@ button, .button {
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #43AC6A;
       border-color: #368a55;
-      color: #FFFFFF;
+      color: #000;
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
@@ -2364,7 +2364,7 @@ button, .button {
       button[disabled].success:focus, .button.disabled.success:hover,
       .button.disabled.success:focus, .button[disabled].success:hover,
       .button[disabled].success:focus {
-        color: #FFFFFF; }
+        color: #000; }
       /* line 176, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.success:hover,
       button.disabled.success:focus, button[disabled].success:hover,
@@ -2376,7 +2376,7 @@ button, .button {
     button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
       background-color: #f04124;
       border-color: #cf2a0e;
-      color: #FFFFFF;
+      color: #000;
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
@@ -2393,7 +2393,7 @@ button, .button {
       button[disabled].alert:focus, .button.disabled.alert:hover,
       .button.disabled.alert:focus, .button[disabled].alert:hover,
       .button[disabled].alert:focus {
-        color: #FFFFFF; }
+        color: #000; }
       /* line 176, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.alert:hover,
       button.disabled.alert:focus, button[disabled].alert:hover,
@@ -2405,7 +2405,7 @@ button, .button {
     button.disabled.warning, button[disabled].warning, .button.disabled.warning, .button[disabled].warning {
       background-color: #f08a24;
       border-color: #cf6e0e;
-      color: #FFFFFF;
+      color: #000;
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
@@ -2422,7 +2422,7 @@ button, .button {
       button[disabled].warning:focus, .button.disabled.warning:hover,
       .button.disabled.warning:focus, .button[disabled].warning:hover,
       .button[disabled].warning:focus {
-        color: #FFFFFF; }
+        color: #000; }
       /* line 176, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.warning:hover,
       button.disabled.warning:focus, button[disabled].warning:hover,
@@ -2451,7 +2451,7 @@ button, .button {
       button[disabled].info:focus, .button.disabled.info:hover,
       .button.disabled.info:focus, .button[disabled].info:hover,
       .button[disabled].info:focus {
-        color: #FFFFFF; }
+        color: #000; }
       /* line 176, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.info:hover,
       button.disabled.info:focus, button[disabled].info:hover,
@@ -5317,7 +5317,7 @@ button:focus {
     .reveal-modal {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 80%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -5338,7 +5338,7 @@ button:focus {
     .reveal-modal.tiny {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 30%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -5346,7 +5346,7 @@ button:focus {
     .reveal-modal.small {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 40%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -5354,7 +5354,7 @@ button:focus {
     .reveal-modal.medium {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 60%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -5362,7 +5362,7 @@ button:focus {
     .reveal-modal.large {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 70%; } }
   @media only screen and (min-width: 40.0625em) {
@@ -5370,7 +5370,7 @@ button:focus {
     .reveal-modal.xlarge {
       left: 0;
       margin: 0 auto;
-      max-width: 62.5rem;
+      max-width: 75rem;
       right: 0;
       width: 95%; } }
   /* line 190, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_reveal.scss */
@@ -5387,7 +5387,7 @@ button:focus {
       .reveal-modal.full {
         left: 0;
         margin: 0 auto;
-        max-width: 62.5rem;
+        max-width: 75rem;
         right: 0;
         width: 100%; } }
   /* line 202, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_reveal.scss */
@@ -6222,7 +6222,7 @@ meta.foundation-mq-topbar {
         padding-right: 0.9375rem;
         background-color: #008CBA;
         border-color: #007095;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover,
         .top-bar-section ul li > a.button:focus {
@@ -6230,7 +6230,7 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover,
         .top-bar-section ul li > a.button:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 352, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.secondary {
         background-color: #e7e7e7;
@@ -6248,7 +6248,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > a.button.success {
         background-color: #43AC6A;
         border-color: #368a55;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover,
         .top-bar-section ul li > a.button.success:focus {
@@ -6256,12 +6256,12 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover,
         .top-bar-section ul li > a.button.success:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 354, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.alert {
         background-color: #f04124;
         border-color: #cf2a0e;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover,
         .top-bar-section ul li > a.button.alert:focus {
@@ -6269,12 +6269,12 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover,
         .top-bar-section ul li > a.button.alert:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 355, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.warning {
         background-color: #f08a24;
         border-color: #cf6e0e;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover,
         .top-bar-section ul li > a.button.warning:focus {
@@ -6282,7 +6282,7 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover,
         .top-bar-section ul li > a.button.warning:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 356, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.info {
         background-color: #a0d3e8;
@@ -6295,7 +6295,7 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.info:hover,
         .top-bar-section ul li > a.button.info:focus {
-          color: #FFFFFF; }
+          color: #000; }
     /* line 359, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar-section ul li > button {
       font-size: 0.8125rem;
@@ -6303,7 +6303,7 @@ meta.foundation-mq-topbar {
       padding-right: 0.9375rem;
       background-color: #008CBA;
       border-color: #007095;
-      color: #FFFFFF; }
+      color: #000; }
       /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover,
       .top-bar-section ul li > button:focus {
@@ -6311,7 +6311,7 @@ meta.foundation-mq-topbar {
       /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover,
       .top-bar-section ul li > button:focus {
-        color: #FFFFFF; }
+        color: #000; }
       /* line 365, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.secondary {
         background-color: #e7e7e7;
@@ -6329,7 +6329,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.success {
         background-color: #43AC6A;
         border-color: #368a55;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover,
         .top-bar-section ul li > button.success:focus {
@@ -6337,12 +6337,12 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover,
         .top-bar-section ul li > button.success:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 367, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.alert {
         background-color: #f04124;
         border-color: #cf2a0e;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover,
         .top-bar-section ul li > button.alert:focus {
@@ -6350,12 +6350,12 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover,
         .top-bar-section ul li > button.alert:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 368, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.warning {
         background-color: #f08a24;
         border-color: #cf6e0e;
-        color: #FFFFFF; }
+        color: #000; }
         /* line 159, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover,
         .top-bar-section ul li > button.warning:focus {
@@ -6363,7 +6363,7 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover,
         .top-bar-section ul li > button.warning:focus {
-          color: #FFFFFF; }
+          color: #000; }
       /* line 369, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.info {
         background-color: #a0d3e8;
@@ -6376,7 +6376,7 @@ meta.foundation-mq-topbar {
         /* line 165, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.info:hover,
         .top-bar-section ul li > button.info:focus {
-          color: #FFFFFF; }
+          color: #000; }
     /* line 373, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar-section ul li:hover:not(.has-form) > a {
       background-color: #555555;
@@ -6527,7 +6527,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     margin-bottom: 0;
     margin: 0 auto;
-    max-width: 62.5rem; }
+    max-width: 75rem; }
   /* line 528, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section {
     transition: none 0 0;
@@ -6885,13 +6885,13 @@ td {
 /* Default Link Styles */
 /* line 217, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008CBA;
+  color: #0053CE;
   line-height: inherit;
   text-decoration: none; }
   /* line 223, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
   a:hover,
   a:focus {
-    color: #0078a0; }
+    color: #0047b1; }
   /* line 230, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
   a img {
     border: none; }
@@ -6918,7 +6918,7 @@ p {
 /* Default header styles */
 /* line 252, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #222222;
+  color: #000;
   font-family: "Dekko", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -6928,7 +6928,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; }
   /* line 262, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    color: #6f6f6f;
+    color: #595959;
     font-size: 60%;
     line-height: 0; }
 
@@ -6959,7 +6959,7 @@ h6 {
 /* line 276, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #595959;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -7083,7 +7083,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #000;
   cursor: help; }
 
 /* line 391, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
@@ -7103,20 +7103,20 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #3b3b3b; }
     /* line 408, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
     blockquote cite:before {
       content: "\2014 \0020"; }
     /* line 413, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #3b3b3b; }
 
 /* line 419, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: #595959; }
 
 /* Microformats */
 /* line 425, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/components/foundation/scss/foundation/components/_type.scss */
@@ -8145,20 +8145,6 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
-/* line 4, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/base/_typography.scss */
-p {
-  margin: 0; }
-
-/* line 8, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/base/_typography.scss */
-h1 {
-  font-size: 2rem;
-  font-weight: 700; }
-
-/* line 13, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/base/_typography.scss */
-h2 {
-  font-size: 1.25rem;
-  font-weight: 700; }
-
 /* line 1, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/sections/_header.scss */
 #masthead {
   background: #ccc; }
@@ -8229,3 +8215,11 @@ h2 {
 /* line 1, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/_shame.scss */
 body {
   position: inherit; }
+
+/* line 5, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/_shame.scss */
+.full-width {
+  background-color: #999; }
+
+/* line 9, /Users/amorcito/Documents/Websites/jesse/wp-content/themes/jesse/assets/sass/_shame.scss */
+.circle {
+  border-radius: 50%; }
