@@ -1,6 +1,6 @@
 #Jesse - Zeek Wireframe Theme
 
-This is the Zeek Starter theme, based on <a href="http://underscores.me/">Underscores</a> and Foundation 5.5.1.
+This is the Zeek Wireframe Theme, used for wireframe websites.
 
 ## How to get started
 ### Prerequisites
