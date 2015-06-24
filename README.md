@@ -1,4 +1,4 @@
-#jesse - Zeek Starter Theme
+#Jesse - Zeek Wireframe Theme
 
 This is the Zeek Starter theme, based on <a href="http://underscores.me/">Underscores</a> and Foundation 5.5.1.
 
